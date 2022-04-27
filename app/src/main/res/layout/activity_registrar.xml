@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/color"
+    tools:context=".LoginRepuesto">
+
+    < <TextView
+    android:layout_width="370dp"
+    android:layout_height="73dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginStart="12dp"
+    android:layout_marginTop="36dp"
+    android:layout_marginEnd="28dp"
+    android:layout_marginBottom="621dp"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:text="CREAR CUENTA NUEVA"
+    android:textColor="@color/black"
+    android:textSize="20dp"
+    android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/RegUser"
+        android:layout_width="wrap_content"
+        android:layout_height="81dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="532dp"
+        android:layout_weight="1"
+        android:hint="Usuario"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/RegPass"
+        android:layout_width="wrap_content"
+        android:layout_height="81dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="216dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="432dp"
+        android:layout_weight="1"
+        android:hint="Contraseña"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/RegNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="81dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="319dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="329dp"
+        android:layout_weight="1"
+        android:hint="Nombre"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/RegApellido"
+        android:layout_width="wrap_content"
+        android:layout_height="81dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="424dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="224dp"
+        android:layout_weight="1"
+        android:hint="Apellido"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnRegRegistrar"
+        andreoid:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="538dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="150dp"
+        android:layout_weight="1"
+        android:background="@drawable/confiboton"
+        android:text="Registrar"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnRegCancelar"
+        andreoid:layout_height="match_parent"
+        android:layout_width="331dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="620dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="66dp"
+        android:layout_weight="1"
+        android:background="@drawable/confiboton"
+        android:text="Cancelar"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
